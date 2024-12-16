@@ -1,0 +1,56 @@
+  ul li:nth-child(odd) {
+    background-color: rgb(159, 157, 157);
+  }
+  ul li:nth-child(even) {
+    background-color: greenyellow;
+  }
+  #input_list {
+    width: 110%;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  #submit_button {
+    padding: 9px;
+    width: 4.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    
+  }
+
+  li:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  #input_list:hover {
+    box-shadow: 2px 2px 2px 2px lightblue;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  #Todo_style {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: hsl(120, 93%, 42%);
+    height: 4rem;
+    padding: 10px;
+  }
+  .side_values
+  {
+    display: flex;
+    /* justify-content: space-around; */
+  }
